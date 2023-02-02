@@ -19,7 +19,7 @@ public class Yanki {
     @Id
     private String id;
     @NotNull
-    private String idDocumentType;
+    private Integer idDocumentType;
     @NotNull
     private String documentNumber;
     @NotNull

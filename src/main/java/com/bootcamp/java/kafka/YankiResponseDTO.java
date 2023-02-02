@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class YankiResponseDTO {
     private String id;
-    private String idDocumentType;
+    private Integer idDocumentType;
     private String documentNumber;
     private String cellPhoneNumber;
     private String cellPhoneIMEI;
